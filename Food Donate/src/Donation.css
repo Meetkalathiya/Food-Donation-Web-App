@@ -1,0 +1,110 @@
+body {
+    /* background-image: url('./component/Assets/image1.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  .App {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    width: 500px;
+    padding: 20px;
+    background-color: #a8dadc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .Field {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  input[placeholder="Contact Number"] {
+    width: calc(100% - 120px);
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[placeholder="Description of Food"],
+  input[placeholder="Address"]
+  {
+    width: calc(100% - 22px);
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type="text"],
+  input[type="date"],
+  input[type="time"] {
+    width: calc(100% - 22px); /* Adjusting width to accommodate padding and border */
+    height: 40px; /* Setting height */
+    padding: 10px;
+    border: 1px solid #ccc;.App {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-image: url('path/to/your/image.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+        background-size: cover; /* This ensures that the background image covers the entire container */
+        background-repeat: no-repeat; /* Prevents the background image from repeating */
+      }
+      
+      .Field {
+        margin-bottom: 20px;
+        
+      }
+      
+      label {
+        font-weight: bold;
+      }
+      
+      input[type="text"],
+      input[type="date"],
+      input[type="time"] {
+        width: calc(100% - 22px); /* Adjusting width to accommodate padding and border */
+        height: 40px; /* Setting height */
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      button[type="submit"] {
+        height: 40px; /* Setting height */
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+      
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    height: 40px; /* Setting height */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,23 @@
+/* .home-container{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../assets/images/cafe.jpg);
+    background-size: 100%;
+    background-position: center;
+    align-items: start;
+    padding: 50px 20px 50px 20px;
+    margin-top: 10px;
+}
+.greetings{
+    flex:1;
+    padding-right: 15px;
+}
+.greetings h1{
+    align-items: baseline;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.greetings p{
+    color: rgb(128, 73, 73);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
