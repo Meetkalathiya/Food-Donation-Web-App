@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './Signup.css';
- 
+
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({
     name: '',
