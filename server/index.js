@@ -78,5 +78,7 @@ mongoose
 const RegistrationRouter = require("./register/register.routes"); // Import the registration router
 app.use("/api/register", RegistrationRouter); // Use the registration router at /api/register endpoint
 
+const DonateRouter = require("./Donation/donation.routes");
+app.use("/api/donate",DonateRouter);
 app.get('/', (req, res) => res.send('Hello World!'));
 app.listen(port, () => console.log("Example app listening on port ${port}!"));
