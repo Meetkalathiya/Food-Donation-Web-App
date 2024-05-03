@@ -22,7 +22,7 @@ function DonationScreen() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3001/api/donate', {
+      const response = await axios.post('http://localhost:3000/api/donate', {
         contactNumber,
         foodDescription,
         address,
