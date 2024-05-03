@@ -1,4 +1,4 @@
-const Donation = require("../donation/donation.model");
+const Donation = require("../Donation/donation.model");
 
 exports.createDonation = async (donationData) => {
   try {

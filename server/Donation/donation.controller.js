@@ -2,10 +2,10 @@ const donationService = require("./donation.service");
 
 // Create a new donation
 exports.createDonation = async (req, res) => {
-  const { contactNumber, foodDescription, address, dateTime } = req.body;
+  const { contactNumber, foodDescription, address, date, time } = req.body;
 
   // Check if required fields are empty
-  if (!contactNumber || !foodDescription || !address || !dateTime) {
+  if (!contactNumber || !foodDescription || !address || !date || !time) {
     return res.status(400).json({ message: "Required fields are empty" });
   }
 
@@ -15,17 +15,19 @@ exports.createDonation = async (req, res) => {
       contactNumber,
       foodDescription,
       address,
-      dateTime,
+      date,
+      time,
     });
 
     res.status(201).json({
-      message: "Donation created successfully",
+      message: "Thanks for Donating we will pick up the food",
       donation: {
         _id: newDonation._id,
         contactNumber: newDonation.contactNumber,
         foodDescription: newDonation.foodDescription,
         address: newDonation.address,
         dateTime: newDonation.dateTime,
+        time: newDonation.time,
       },
     });
   } catch (err) {
