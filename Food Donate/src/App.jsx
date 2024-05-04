@@ -7,6 +7,7 @@ import Home from './Home';
 import DonationScreen from './Donation';
 import DonationButton from './DonationButton';
 import ContactUs from './Contact Us'; 
+import History from './History';
 
 function App() {
   return (
@@ -20,9 +21,9 @@ function App() {
         <Route path='/donation' element={<DonationScreen />} />
         {/* Add route for ContactUs */}
         <Route path='/contact' element={<ContactUs />} />
+        <Route path='/history' element={<History />} />
       </Routes>
     </BrowserRouter>
   );
 }
-
 export default App;

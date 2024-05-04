@@ -40,8 +40,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Dashboard from './components/Dashboard';
-import Users from './components/Users';
-import Products from './components/Products';
+// import Completed from './components/Completed';
+import CompletedScreen from './components/Completed'; 
 
 
 function App() {
@@ -49,9 +49,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Dashboard />} />
-        {/* <Route path="/dashboard" element={<Dashboard />} /> */}
-        <Route path="/users" element={<Users />} />
-        <Route path="/products" element={<Products />} />
+        {/* <Route path="/completed/:donationId" component={<CompletedScreen/>} /> */}
+        <Route path='/completed' element={<CompletedScreen/>}/>
         
       </Routes>
     </Router>

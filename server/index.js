@@ -48,11 +48,13 @@ const express = require('express');
 const cors = require("cors");
 const app = express();
 const port = 3000;
-app.use(
-  cors({
-    origin: "http://localhost:5173",
-  })
-);
+app.use(cors());
+
+// app.use(
+//   cors({
+//     origin: "http://localhost:3000", // Update the origin to match your frontend URL
+//   })
+// );
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -80,5 +82,6 @@ app.use("/api/register", RegistrationRouter); // Use the registration router at 
 
 const DonateRouter = require("./Donation/donation.routes");
 app.use("/api/donate",DonateRouter);
+
 app.get('/', (req, res) => res.send('Hello World!'));
 app.listen(port, () => console.log("Example app listening on port ${port}!"));
