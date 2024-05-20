@@ -1,7 +1,8 @@
 body {
-    /* background-image: url('./component/Assets/image1.jpg'); */
+    background-image: url('./component/Assets/image1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+   
     
   }
   .App {

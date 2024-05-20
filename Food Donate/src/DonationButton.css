@@ -1,16 +1,17 @@
 /* DonationButton.css */
 
 .button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Set the height of the container to 100% of the viewport height */
-  }
-  
-  /* Adjust button size */
-  .button-container button {
-    width: 150px; /* Set the width of the button */
-    height: 100px; /* Set the height of the button */
-    font-size: 18px; /* Adjust the font size of the button text */
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: white;/* Set the height of the container to 100% of the viewport height */
+}
+
+/* Adjust button size */  
+.button-container button {
+  width: 150px; /* Set the width of the button */
+  height: 100px; /* Set the height of the button */
+  font-size: 18px; /* Adjust the font size of the button text */
+  background-color: #06d6a0; /* Change the button's background color to red (you can use any color code or name here) */
+}
